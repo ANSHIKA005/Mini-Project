@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="miniproject.css">
+	<title></title>
+</head>
+<body>
+	<section class="showcase">
+    <header>
+      <h2 class="logo">LIFE</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="miniproject.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>“Get busy living or<br> get busy dying.” <h4>— Stephen King<h4></h2> 
+      
+      <p>Everybody wants to be famous, but nobody wants to do the work. I live by that. You grind hard so you can play hard. At the end of the day, you put all the work in, and eventually it’ll pay off. It could be in a year, it could be in 30 years. Eventually, your hard work will pay off.</p>
+      <a href="#">Make a Life you love to live</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Motivation</a></li>
+      <li><a href="#">Time Schedule</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <script type="text/javascript">
+  	const menuToggle = document.querySelector('.toggle')
+  	const showcase = document.querySelector('.showcase')
+
+  	menuToggle.addEventListener('click',() => {
+  		menuToggle.classList.toggle('active')
+  		showcase.classList.toggle('active')  	})
+  </script>
+</body>
+</html>
